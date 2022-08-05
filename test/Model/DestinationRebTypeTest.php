@@ -1,6 +1,6 @@
 <?php
 /**
- * ItemNumberTypeDtoTest
+ * DestinationRebTypeTest
  *
  * PHP version 5
  *
@@ -27,26 +27,52 @@
  * Please update the test case below to test the model.
  */
 
-namespace Dangl\AVACloud\Model;
-
-use \Dangl\AVACloud\AbstractSkippableTest;
+namespace Dangl\AVACloud;
 
 /**
- * ItemNumberTypeDtoTest Class Doc Comment
+ * DestinationRebTypeTest Class Doc Comment
  *
  * @category    Class
- * @description Determines the type of an ItemNumberSchema
+ * @description Represents valid REB target types
  * @package     Dangl\AVACloud
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class ItemNumberTypeDtoTest extends AbstractSkippableTest
+class DestinationRebTypeTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * Test "ItemNumberTypeDto"
+     * Setup before running any test case
      */
-    public function testItemNumberTypeDto()
+    public static function setUpBeforeClass()
+    {
+    }
+
+    /**
+     * Setup before running each test case
+     */
+    public function setUp()
+    {
+    }
+
+    /**
+     * Clean up after running each test case
+     */
+    public function tearDown()
+    {
+    }
+
+    /**
+     * Clean up after running all test cases
+     */
+    public static function tearDownAfterClass()
+    {
+    }
+
+    /**
+     * Test "DestinationRebType"
+     */
+    public function testDestinationRebType()
     {
     }
 }

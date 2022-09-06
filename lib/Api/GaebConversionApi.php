@@ -92,7 +92,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Dangl.AVA projects
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $remove_plain_text_long_texts If set to true, plain text long texts will be removed from the output to reduce response sizes (optional)
      * @param  bool $remove_html_long_texts If set to true, html long texts will be removed from the output to reduce response sizes (optional)
@@ -112,7 +112,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Dangl.AVA projects
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $remove_plain_text_long_texts If set to true, plain text long texts will be removed from the output to reduce response sizes (optional)
      * @param  bool $remove_html_long_texts If set to true, html long texts will be removed from the output to reduce response sizes (optional)
@@ -198,7 +198,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Dangl.AVA projects
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $remove_plain_text_long_texts If set to true, plain text long texts will be removed from the output to reduce response sizes (optional)
      * @param  bool $remove_html_long_texts If set to true, html long texts will be removed from the output to reduce response sizes (optional)
@@ -221,7 +221,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Dangl.AVA projects
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $remove_plain_text_long_texts If set to true, plain text long texts will be removed from the output to reduce response sizes (optional)
      * @param  bool $remove_html_long_texts If set to true, html long texts will be removed from the output to reduce response sizes (optional)
@@ -274,7 +274,7 @@ class GaebConversionApi
     /**
      * Create request for operation 'gaebConversionConvertToAva'
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $remove_plain_text_long_texts If set to true, plain text long texts will be removed from the output to reduce response sizes (optional)
      * @param  bool $remove_html_long_texts If set to true, html long texts will be removed from the output to reduce response sizes (optional)
@@ -391,7 +391,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Excel
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $write_prices Defaults to true (optional)
      * @param  bool $write_long_texts Defaults to true (optional)
@@ -412,7 +412,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Excel
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $write_prices Defaults to true (optional)
      * @param  bool $write_long_texts Defaults to true (optional)
@@ -499,7 +499,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Excel
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $write_prices Defaults to true (optional)
      * @param  bool $write_long_texts Defaults to true (optional)
@@ -523,7 +523,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Excel
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $write_prices Defaults to true (optional)
      * @param  bool $write_long_texts Defaults to true (optional)
@@ -577,7 +577,7 @@ class GaebConversionApi
     /**
      * Create request for operation 'gaebConversionConvertToExcel'
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  bool $write_prices Defaults to true (optional)
      * @param  bool $write_long_texts Defaults to true (optional)
@@ -699,7 +699,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to GAEB files. Used for example when transforming or repairing GAEB files.
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_gaeb_type Defaults to GAEB XML V3.2 (optional)
      * @param  string $target_exchange_phase_transform Defaults to none, meaning no transformation will be done (optional)
@@ -722,7 +722,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to GAEB files. Used for example when transforming or repairing GAEB files.
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_gaeb_type Defaults to GAEB XML V3.2 (optional)
      * @param  string $target_exchange_phase_transform Defaults to none, meaning no transformation will be done (optional)
@@ -811,7 +811,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to GAEB files. Used for example when transforming or repairing GAEB files.
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_gaeb_type Defaults to GAEB XML V3.2 (optional)
      * @param  string $target_exchange_phase_transform Defaults to none, meaning no transformation will be done (optional)
@@ -837,7 +837,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to GAEB files. Used for example when transforming or repairing GAEB files.
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_gaeb_type Defaults to GAEB XML V3.2 (optional)
      * @param  string $target_exchange_phase_transform Defaults to none, meaning no transformation will be done (optional)
@@ -893,7 +893,7 @@ class GaebConversionApi
     /**
      * Create request for operation 'gaebConversionConvertToGaeb'
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_gaeb_type Defaults to GAEB XML V3.2 (optional)
      * @param  string $target_exchange_phase_transform Defaults to none, meaning no transformation will be done (optional)
@@ -1025,7 +1025,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Oenorm files
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_oenorm_type Defaults to Lv2015 (optional)
      * @param  bool $try_repair_project_structure Defaults to false. If this is enabled, the converter will try to ensure that the project structure can be mapped to Oenorm. It might introduce additional group levels to ensure a compatible target (optional)
@@ -1047,7 +1047,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Oenorm files
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_oenorm_type Defaults to Lv2015 (optional)
      * @param  bool $try_repair_project_structure Defaults to false. If this is enabled, the converter will try to ensure that the project structure can be mapped to Oenorm. It might introduce additional group levels to ensure a compatible target (optional)
@@ -1135,7 +1135,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Oenorm files
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_oenorm_type Defaults to Lv2015 (optional)
      * @param  bool $try_repair_project_structure Defaults to false. If this is enabled, the converter will try to ensure that the project structure can be mapped to Oenorm. It might introduce additional group levels to ensure a compatible target (optional)
@@ -1160,7 +1160,7 @@ class GaebConversionApi
      *
      * Converts GAEB files to Oenorm files
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_oenorm_type Defaults to Lv2015 (optional)
      * @param  bool $try_repair_project_structure Defaults to false. If this is enabled, the converter will try to ensure that the project structure can be mapped to Oenorm. It might introduce additional group levels to ensure a compatible target (optional)
@@ -1215,7 +1215,7 @@ class GaebConversionApi
     /**
      * Create request for operation 'gaebConversionConvertToOenorm'
      *
-     * @param  \SplFileObject $gaeb_file The input file (optional)
+     * @param  null|string|\SplFileObject $gaeb_file The input file (optional)
      * @param  bool $support_skipped_item_number_levels_in_positions Defaults to &#39;false&#39;. This controls if, when deserializing GAEB files, skipped levels in position item numbers should be supported. For example, if an ItemNumberSchema defines three levels - two group levels and one position levels - but the ItemNumber of the position is just &#39;01.02&#39;, then it will be displayed as &#39;01.__.02&#39; if this is set to true. (optional)
      * @param  string $destination_oenorm_type Defaults to Lv2015 (optional)
      * @param  bool $try_repair_project_structure Defaults to false. If this is enabled, the converter will try to ensure that the project structure can be mapped to Oenorm. It might introduce additional group levels to ensure a compatible target (optional)
